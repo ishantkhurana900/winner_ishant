@@ -1,0 +1,17 @@
+# Raw data stays on the machine that has it (too big for GitHub and not to be published)
+Data/*.csv
+Data/*.xlsx
+# Built from the CSVs by pipeline/rebuild_all.py
+data.js
+.work/
+
+# Secrets
+.env
+
+# Local / OS / tooling
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+.claude/
